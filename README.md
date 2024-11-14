@@ -46,9 +46,13 @@ bash: “gcc -o workerDB workerDB.c readfile.c”
    2. Lookup by ID
    3. Lookup by Last Name
    4. Add an Employee
-   5. Quit
+   5. Remove an Employee
+   6. Update an Employee
+   7. Print Top M Salaries
+   8. Find Employees by Salary Range
+   9. Quit
  
-   Enter a number (1-5) to choose an option.
+   Enter a number (1-9) to choose an option.
 
 8. Look Up Employees by ID or Last Name  
    To look up an employee, select options 2 or 3 and enter the ID or last name as prompted. The program will display matching records if found.
@@ -56,7 +60,19 @@ bash: “gcc -o workerDB workerDB.c readfile.c”
 9. Add a New Employee  
    Choose option 4 to add a new employee. The program will ask for the first name, last name, and salary, then automatically assign a new ID and add the employee to the database.
 
-10. Exit the Program  
+10. Remove an Employee
+    Choose option 5 to add a new employee. The program will ask employee ID to remove to the database.
+
+11. Update an Employee
+    Choose option 6 to update a employee details . The program will ask for the first name, last name, and salary,then automatically add the updated employee details to the            database.
+
+12. Print Top M Salaries
+    Choose option 8 to print employees details with highest salries.
+   
+13. Find Employees by Salary Range
+    Choose option 9 to print employees details in desired range.
+   
+14. Exit the Program  
    To quit, select option 5 from the menu. The program will display a goodbye message and terminate.
 
 
